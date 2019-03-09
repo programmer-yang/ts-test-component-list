@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib/",
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react"
+  },
+  "include": ["./src/**/*", "index.d.ts", "src/index.d.ts"]
+}

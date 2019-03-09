@@ -1,0 +1,19 @@
+{
+  "name": "test-ts-component-list",
+  "version": "0.0.6",
+  "description": "",
+  "main": "src/index",
+  "module": "lib/index",
+  "scripts": {
+    "build": "tsc && npm run css",
+    "css": "copyfiles src/*.css lib/ -f"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "^16.8.7",
+    "copyfiles": "^2.1.0",
+    "typescript": "^3.3.3333"
+  }
+}
